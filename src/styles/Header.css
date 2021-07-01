@@ -1,0 +1,60 @@
+.navbarContainer {
+    font-family: 'Raleway', sans-serif;
+    background-color: #EEEEEE;
+    padding: 10px;
+    font-weight: 500;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 5px 9px -3px #8e8e8e;
+}
+
+.logoIngesolda {
+    height: 50px;
+}
+
+.navbarContainer .navbar {
+    width: 100%;
+    background-color: transparent;
+}
+
+Nav div {
+    text-align: right;
+    padding-top: 10px;
+}
+
+.blogSpan{
+    background: #96C3C1;
+    border-radius: 3px;
+    padding: 3px 5px;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0px 5px 9px -3px #8e8e8e;
+}
+
+@media (max-width: 576px) {
+    div .navbar {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 15px;
+
+    }
+
+    Nav div{
+        text-align: center;
+    }
+/* 
+    .navbarContainer {
+        box-shadow: 0px 0px 22px 4px rgba(173, 185, 224, 0.29);
+    } */
+}
+
+.menuItem {
+    margin-right: 15px;
+    color: #002963;
+    text-decoration: none;
+}
+
+.navbarContainer .menuItem.active {
+    color: #96C3C1 !important;
+}

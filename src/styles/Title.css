@@ -1,0 +1,10 @@
+div.title{
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    border-color: #96C3C1;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: #002963;
+    font-size: 15px!important;
+    text-align: center;
+}
