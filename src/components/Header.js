@@ -22,16 +22,16 @@ export default function Header() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav navbar-expand-md" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto navbar-expand-md justify-content-end">
-            <Nav.Link className="menuItem" href="#home">
+            <Nav.Link className="menuItem" href="#acerca">
               Acerca
             </Nav.Link>
-            <Nav.Link className="menuItem" href="#comparador">
+            <Nav.Link className="menuItem" href="#servicios">
               Servicios
             </Nav.Link>
-            <Nav.Link className="menuItem" href="#nosotros">
+            <Nav.Link className="menuItem" href="#contacto">
               Contacto
             </Nav.Link>
-            <Nav.Link className="menuItem" href="#contacto">
+            <Nav.Link className="menuItem" href="#blog">
                 <span className="blogSpan">
                    BLOG  
                 </span>

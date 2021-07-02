@@ -1,11 +1,10 @@
 .navbarContainer {
     font-family: 'Raleway', sans-serif;
     background-color: #EEEEEE;
-    padding: 10px;
+    padding: 20px 40px;
     font-weight: 500;
     text-decoration: none;
     width: 100%;
-    text-align: center;
     box-shadow: 0px 5px 9px -3px #8e8e8e;
 }
 
@@ -13,8 +12,9 @@
     height: 50px;
 }
 
-.navbarContainer .navbar {
-    width: 100%;
+.navbar {
+    padding: 20px 20%;
+    margin: 0 auto;
     background-color: transparent;
 }
 
@@ -33,20 +33,21 @@ Nav div {
 }
 
 @media (max-width: 576px) {
-    div .navbar {
+    .navbarContainer .navbar {
         width: 100%;
         margin: 0 auto;
         font-size: 15px;
-
+        padding: 10px 5%;
     }
 
     Nav div{
         text-align: center;
     }
-/* 
-    .navbarContainer {
-        box-shadow: 0px 0px 22px 4px rgba(173, 185, 224, 0.29);
-    } */
+
+    div.navbarContainer{
+        text-align: center;
+        padding: 10px;
+    }
 }
 
 .menuItem {

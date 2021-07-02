@@ -4,9 +4,9 @@ import "../styles/Title.css";
 export default function Title({title}) {
     return(
         <div className='title'>
-            <h3>
+            <h1>
                 {title}
-            </h3>
+            </h1>
         </div>
     )
 }
