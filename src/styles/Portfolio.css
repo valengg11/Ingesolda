@@ -1,18 +1,40 @@
-.portfolioContainer{
-    width: 60%;
-    margin: 50px auto;
+* {
+    font-family: 'Poppins', sans-serif;
 }
 
+.portfolioBackgroundContainer{
+    background: #F2F9FF;
+    margin: 100px 0;
+}
+
+.portfolioContainer {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.portfolioContainer h3 {
+    color: rgba(0, 41, 99, 0.6);
+    font-size: 20px;
+}
+
+.portfolioContainer h1 {
+    color: #002963;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+@media (max-width: 1300px) {
+    .containerCard{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
 @media (max-width: 576px) {
-    div.portfolioContainer{
+    div.portfolioContainer {
         width: 90%;
     }
 }
-
-/* @media (max-width: 770px) {
-    .containerCard{
-        width: 640px;
-    }
-} */
-
-

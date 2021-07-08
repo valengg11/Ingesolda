@@ -1,14 +1,12 @@
 import React from 'react';
 import "../styles/Contact.css";
-import Title from './Title'
 
 export default function Contact() {
     return (
         <div className='contactContainer' id='contacto'>
-           <Title
-            title="CONTÁCTANOS"
-           />
-               
+           <h2>
+           CONTÁCTANOS
+           </h2>
       <div className="contactContainerExperto">
         <form className="contactBody">
           <label className="contactLabel">

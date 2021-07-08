@@ -4,13 +4,11 @@ import { Navbar, Nav } from "react-bootstrap";
 
 export default function Header() {
   return (
-    <div className="navbarContainer">
+    // <div className="navbarContainer">
       <Navbar
-        className="navbar fixed-top"
+        className="navbar fixed-top navbarMobile"
         collapseOnSelect
         expand="lg"
-        bg="light"
-        variant="light"
       >
         <Navbar.Brand href="#home">
           <img
@@ -20,7 +18,7 @@ export default function Header() {
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav navbar-expand-md" />
-        <Navbar.Collapse id="responsive-navbar-nav">
+        <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
           <Nav className="ml-auto navbar-expand-md justify-content-end">
             <Nav.Link className="menuItem" href="#acerca">
               Acerca
@@ -39,6 +37,6 @@ export default function Header() {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-    </div>
+    // </div>
   );
 }
