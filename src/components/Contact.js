@@ -4,18 +4,20 @@ import "../styles/Contact.css";
 export default function Contact() {
     return (
         <div className='contactContainer' id='contacto'>
-           <h2>
-           CONTÁCTANOS
+           <h2 className='contactTitle'>
+           ¡Contáctanos!
            </h2>
       <div className="contactContainerExperto">
         <form className="contactBody">
           <label className="contactLabel">
             NOMBRE:
-            <input type="text" name="name" className="contactItem" placeholder='*'/>
+            <input type="text" name="name" className="contactItem" />
+            *
           </label>
           <label className="contactLabel">
             TELÉFONO:
-            <input type="text" name="name" className="contactItem" placeholder='*'/>
+            <input type="text" name="name" className="contactItem"/>
+            *
           </label>
           <label className="contactLabel">
             MENSAJE:

@@ -1,0 +1,21 @@
+.footerContainer {
+    background: #FFAC00;
+    color: white;
+    padding: 40px 0;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialIcon{
+    font-size: 25px;
+    margin: 6px;
+    margin-top: 20px;
+    color: white;
+}
+
+.socialIcon:active{
+    color: white;
+}

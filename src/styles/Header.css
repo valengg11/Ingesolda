@@ -40,13 +40,16 @@ Nav div {
     box-shadow: 4px 4px 15px 0px #EFEFEF;
 }
 
-@media (min-width: 992px){
+@media (min-width: 992px) {
     .navbar-expand-lg .navbar-collapse {
         margin-top: 50px;
     }
 }
 
 @media (max-width: 576px) {
+    .logoIngesolda {
+        height: 50px;
+    }
     .navbar.navbarMobile {
         width: 100%;
         margin: 0 auto;
@@ -69,6 +72,6 @@ Nav div {
     color: #002963 !important;
 }
 
-.navbarContainer .menuItem.active {
+.navbar-light .navbar-nav .nav-link.active {
     color: #FFAC00 !important;
 }

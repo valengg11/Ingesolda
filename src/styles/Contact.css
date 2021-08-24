@@ -1,3 +1,15 @@
+*{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.contactTitle{
+    color: #002963;
+    font-weight: 500;
+    font-size: 45px;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
 .contactContainer{
     width: 60%;
     margin: 0 auto;
@@ -16,23 +28,25 @@
 label.contactLabel {
     display: flex;
     font-family: 'Roboto', sans-serif;
-    font-weight: 100;
+    /* font-size: 20px; */
+    /* font-weight: 100; */
     margin: 10px 0;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     color: #a7a7a7;
 }
 
 .contactItem {
     border: none;
     border-bottom: 1px solid;
-    color: #96C3C1;
+    color: #a7a7a7;
     margin-left: 10px;
     width: 100%;
     text-align: right;
 }
 
 .contactItem:focus{
-    text-align: right;
+    text-align: left;
+    outline: none;
 }
 
 .buttonContainer {
@@ -40,17 +54,20 @@ label.contactLabel {
     justify-content: space-between;
     align-items: center;
     color: #a7a7a7;
+    margin-top: 20px;
 }
 
 .button {
     border-radius: 5px;
     border: none;
     padding: 7px 15px;
-    background: #96C3C1;
+    background: #FFAC00;
     color: white;
     font-family: 'Raleway';
+    font-weight: 600;
     letter-spacing: 2px;
-    box-shadow: 0px 5px 9px -3px #8e8e8e;
+    /* box-shadow: 0px 4px 15px 0px #efefef; */
+    box-shadow: 0px 5px 9px -3px #9c9b9b;
 }
 
 
@@ -67,6 +84,10 @@ label.contactLabel {
 
 .obligatorio {
     display: flex;
+}
+
+.obligatorio p {
+    font-size: 14px;
 }
 
 .asterisco {
