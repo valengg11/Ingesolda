@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Ingesolda/static/css/main.6be8d8cc.chunk.css",
+    "main.css": "/Ingesolda/static/css/main.d635df53.chunk.css",
     "main.js": "/Ingesolda/static/js/main.434cde3c.chunk.js",
     "main.js.map": "/Ingesolda/static/js/main.434cde3c.chunk.js.map",
     "runtime-main.js": "/Ingesolda/static/js/runtime-main.b1a7bf99.js",
@@ -12,7 +12,7 @@
     "static/js/3.b2355c16.chunk.js.map": "/Ingesolda/static/js/3.b2355c16.chunk.js.map",
     "index.html": "/Ingesolda/index.html",
     "static/css/2.d45d6843.chunk.css.map": "/Ingesolda/static/css/2.d45d6843.chunk.css.map",
-    "static/css/main.6be8d8cc.chunk.css.map": "/Ingesolda/static/css/main.6be8d8cc.chunk.css.map",
+    "static/css/main.d635df53.chunk.css.map": "/Ingesolda/static/css/main.d635df53.chunk.css.map",
     "static/js/2.54f93319.chunk.js.LICENSE.txt": "/Ingesolda/static/js/2.54f93319.chunk.js.LICENSE.txt",
     "static/media/About.css": "/Ingesolda/static/media/soldadura.d8995c2b.jpeg"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.b1a7bf99.js",
     "static/css/2.d45d6843.chunk.css",
     "static/js/2.54f93319.chunk.js",
-    "static/css/main.6be8d8cc.chunk.css",
+    "static/css/main.d635df53.chunk.css",
     "static/js/main.434cde3c.chunk.js"
   ]
 }
