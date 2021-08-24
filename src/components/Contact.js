@@ -4,8 +4,9 @@ import "../styles/Contact.css";
 export default function Contact() {
     return (
         <div className='contactContainer' id='contacto'>
+          <h3>¿QUIERES QUE TE LLAMEMOS?</h3>
            <h2 className='contactTitle'>
-           ¡Contáctanos!
+           ¡Déjanos tus datos!
            </h2>
       <div className="contactContainerExperto">
         <form className="contactBody">

@@ -16,6 +16,14 @@
     margin-bottom: 30px;
 }
 
+.contactContainer h3 {
+    color: rgba(0, 41, 99, 0.6);
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: right;
+    margin-bottom: 0px;
+}
+
 .contactFlex {
     display: flex;
     flex-direction: row;
