@@ -13,7 +13,7 @@ export default function Portfolio() {
           <Row>
             <Col xl={6}>
               <ServiceCard
-                icon="/images/icons/iconCalificacionBlue.png"
+                icon="images/icons/iconCalificacionBlue.png"
                 title="Calificación"
                 text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at suspendisse quam adipiscing cursus."
                 background="white"
@@ -22,7 +22,7 @@ export default function Portfolio() {
             </Col>
             <Col xl={6}>
               <ServiceCard
-                icon="/images/icons/iconCapacitacionWhite.png"
+                icon="images/icons/iconCapacitacionWhite.png"
                 title="Capacitación"
                 text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at suspendisse quam adipiscing cursus."
                 background="#FFAC00"
@@ -34,7 +34,7 @@ export default function Portfolio() {
           <Row>
             <Col xl={6}>
               <ServiceCard
-                icon="/images/icons/iconAsesoriaBlue.png"
+                icon="images/icons/iconAsesoriaBlue.png"
                 title="Asesoría"
                 text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at suspendisse quam adipiscing cursus."
                 background="white"
@@ -43,7 +43,7 @@ export default function Portfolio() {
             </Col>
             <Col xl={6}>
               <ServiceCard
-                icon="/images/icons/iconInspeccionWhite.png"
+                icon="images/icons/iconInspeccionWhite.png"
                 title="Inspección"
                 text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at suspendisse quam adipiscing cursus."
                 background="#FFAC00"
@@ -53,7 +53,7 @@ export default function Portfolio() {
             </Col>
             <Col xl={6}>
               <ServiceCard
-                icon="/images/icons/iconENDsBlue.png"
+                icon="images/icons/iconENDsBlue.png"
                 title="ENDs"
                 text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at suspendisse quam adipiscing cursus."
                 background="white"

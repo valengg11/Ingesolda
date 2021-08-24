@@ -12,9 +12,9 @@ export default function Header() {
       >
         <Navbar.Brand href="#home">
           <img
-            src="../images/Logo_empresarial.png"
+            src="images/Logo_empresarial.png"
             className="d-inline-block align-top logoIngesolda"
-            alt="Tarifast Logo"
+            alt="Ingesolda Logo"
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav navbar-expand-md" />

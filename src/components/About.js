@@ -19,7 +19,7 @@ export default function About() {
           <div className="aboutImage" />
         </div>
       </div>
-      <img src="/images/about/Ingesolda_Logo_Helmet_Half.png" height="650px" />
+      <img src="images/about/Ingesolda_Logo_Helmet_Half.png" height="650px" alt='logo_ingesolda_helmet'/>
     </div>
   );
 }
